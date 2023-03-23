@@ -7,9 +7,10 @@ import Container from 'react-bootstrap/Container'
 
 export default function AboutMe() {
   return (
-    <Container><br></br><br></br>
-        <Col className="align-middle">
-     <Card style = {{ width: '18rem' }} className="text-center" text='dark'>
+    <Container>
+      <Row>
+        <Col sm style={{display: 'flex', justifyContent: 'center'}}>
+     <Card style = {{ width: '18rem' }} className="text-center m-5" text='dark'>
       <Card.Img variant="top" src='/images/dogone.jpg'/>
       <Card.Body>
         <Card.Title>About</Card.Title>
@@ -19,6 +20,7 @@ export default function AboutMe() {
         </Card.Body>
     </Card>
     </Col>
+    </Row>
   </Container>
   );
 }
