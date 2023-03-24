@@ -59,14 +59,14 @@ const inputChange = (e) => {
     
           <Form.Group className="mb-3" controlId="ControlTextarea2">
             <Form.Label>Name</Form.Label>
-            <Form.Control placeholder="name" as="textarea" onBlur = {e => {checkForText(e)}} value= {name} onChange = {e => {inputChange(e)}}/>
+            <Form.Control placeholder="Enter name" as="textarea" onBlur = {e => {checkForText(e)}} value= {name} onChange = {e => {inputChange(e)}}/>
             <Form.Text className="text-muted">
           {required}
           </Form.Text>
           </Form.Group>
           <Form.Group className="mb-3" controlId="form.ControlTextarea1">
         <Form.Label>Include a message</Form.Label>
-        <Form.Control as="textarea" rows={3} onBlur = {e => {checkForText(e)}} value= {message} onChange = {e => {inputChange(e)}}/>
+        <Form.Control as="textarea" placeholder="Enter message" rows={3} onBlur = {e => {checkForText(e)}} value= {message} onChange = {e => {inputChange(e)}}/>
         <Form.Text className="text-muted">
           {required}
           </Form.Text>
