@@ -11,7 +11,7 @@ export default function AboutMe() {
       <Row>
         <Col sm style={{display: 'flex', justifyContent: 'center'}}>
      <Card text="dark"bg="light"border="dark" style = {{ width: '18rem' }} className="text-center m-5">
-      <Card.Img variant="top" src='/images/dogone.jpg'/>
+      <Card.Img variant="top"  src="./images/dogone.jpg"/>
       <Card.Body>
         <Card.Title>About</Card.Title>
         <Card.Text>
