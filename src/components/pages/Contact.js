@@ -44,7 +44,7 @@ const inputChange = (e) => {
   return (
         <Container>
           <br></br>
-          <br></br>
+          
           <h1>Contact Me</h1>
         <Form>
           <Form.Group className="mb-3" controlId="formEmail">
@@ -74,7 +74,7 @@ const inputChange = (e) => {
           <Button variant="primary" type="submit" onClick={e => {validate(e)}}>
             Submit
           </Button>
-        </Form>
+        </Form><br></br>
         </Container>
       );
     }
