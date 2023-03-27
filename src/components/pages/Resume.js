@@ -8,7 +8,7 @@ export default function Resume() {
 
       <br></br>
       <br></br>
-      <Button href="/resume.pdf"download>download resume</Button>
+      <Button href="./resume.pdf"download>download resume</Button>
        <br></br><br></br>
       <h1>Experience with:</h1>
      
