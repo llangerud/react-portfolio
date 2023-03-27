@@ -2,13 +2,29 @@ import React from 'react';
 import Container from 'react-bootstrap/Container'
 import Button from 'react-bootstrap/Button';
 
-export default function Resume() {
+function Resume() {
+  const onButtonClick = () => {
+    // using the guide from https://www.geeksforgeeks.org/how-to-download-pdf-file-in-reactjs/
+    fetch('resume.pdf').then(response => {
+        response.obj().then(obj => {
+            const fileURL = window.URL.createObjectURL(obj);
+            // Setting various property values
+            let alink = document.createElement('a');
+            alink.href = fileURL;
+            alink.download = 'resume.pdf';
+            alink.click();
+        })
+    })
+}
+
+
+
   return (
     <Container >
 
       <br></br>
       <br></br>
-      <Button src="./resume.pdf" download> download resume</Button>
+      <Button onClick={onButtonClick}> download resume</Button>
        <br></br><br></br>
       <h1>Experience with:</h1>
      
@@ -34,3 +50,4 @@ export default function Resume() {
 </Container>
   );
 }
+export default Resume;
