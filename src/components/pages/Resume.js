@@ -2,13 +2,15 @@ import React from 'react';
 import Container from 'react-bootstrap/Container'
 import Button from 'react-bootstrap/Button';
 
+
 export default function Resume() {
   return (
     <Container >
 
       <br></br>
       <br></br>
-      <Button href="/resume.pdf" download='resume.pdf'> download resume</Button>
+      
+      <Button href="resume.pdf" download='resume.pdf'> download resume</Button>
        <br></br><br></br>
       <h1>Experience with:</h1>
      
