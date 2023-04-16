@@ -42,13 +42,13 @@ export default function Portfolio() {
     </Col>
     <Col sm>
     <Card style = {{ width: '18rem' }} classNameName="text-center m-3" text='dark'>
-    <a href="https://text-editor87756.herokuapp.com/"><Card.Header>Just Another Text Editor</Card.Header></a>
-      <Card.Img variant="top" src='./images/jate.jpg'/>
+    <a href="https://Houndr.herokuapp.com/"><Card.Header>Houndr</Card.Header></a>
+      <Card.Img variant="top" src='./images/mainpage.jpg'/>
       <Card.Body>
         <Card.Text>
-        A Progressive Web Application (PWA) built with Node, Express, CodeMirror, IndexedDB and webpack.
+        A single-page app utilizing the MERN stack.
         </Card.Text>
-        <Card.Link href="https://github.com/llangerud/text-editor"><i className="fa-brands fa-github"></i></Card.Link>
+        <Card.Link href="https://github.com/llangerud/Houndr"><i className="fa-brands fa-github"></i></Card.Link>
         </Card.Body>
     </Card>
     </Col>
@@ -56,14 +56,13 @@ export default function Portfolio() {
     <Row>
       <Col sm>
       <Card style = {{ width: '18rem' }} classNameName="text-center m-3" text='dark'>
-    <Card.Header>Employee Tracker</Card.Header>
-    <Card.Link href="#">Application</Card.Link>
-        <Card.Link href="#"><i className="fa-brands fa-github"></i> </Card.Link>
-      <Card.Img variant="top" src='./images/employeetracker.jpg'/>
+    <a href="https://text-editor87756.herokuapp.com/"><Card.Header>Just Another Text Editor</Card.Header></a>
+      <Card.Img variant="top" src='./images/jate.jpg'/>
       <Card.Body>
         <Card.Text>
-        Command-line application using Node, inquirer and mysql to create a searchable employee database.
+        A Progressive Web Application (PWA) built with Node, Express, CodeMirror, IndexedDB and webpack.
         </Card.Text>
+        <Card.Link href="https://github.com/llangerud/text-editor"><i className="fa-brands fa-github"></i></Card.Link>
         </Card.Body>
     </Card>
     </Col>
